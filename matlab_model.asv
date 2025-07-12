@@ -1,0 +1,9 @@
+clc;
+L(1)=Link([0 1 0 0],'modified');
+L(2)=Link([0 0 1 0],'modified');
+L(3)=Link([0 0 0 1],'modified');
+L(4)=Link([1 0 0 0],'modified');
+L(5)=Link([0 0 0 0],'modified');
+L(6)=Link([0 0 0 0],'modified');
+Robot = SerialLink([L(1) L(2) L(3) L(4) L(5) L(6)]);
+Robot.display();
