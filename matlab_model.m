@@ -1,4 +1,4 @@
-clc;
+% clc;
 L(1)=Link([0 0 0 0],'modified');
 L(2)=Link([0 0 0 -pi/2],'modified');
 L(2).offset = -pi/2;
