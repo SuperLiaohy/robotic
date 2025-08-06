@@ -1,3 +1,5 @@
+% requires RTB library installation
+% Download link https://petercorke.com/toolboxes/robotics-toolbox/
 % clc;
 L(1)=Link([0 0 0 0],'modified');
 L(2)=Link([0 0 0 -pi/2],'modified');
